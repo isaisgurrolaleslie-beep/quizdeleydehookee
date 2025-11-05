@@ -1,0 +1,130 @@
+body{ /*Aplica estilos a todos los elementos que estén dentro del <body>.*/
+       font-family:times new roman;/*Establece la fuente tipográfica como Times New Roman.*/
+       font-weight:bold;/*Aplica negrita al texto.*/
+    }
+
+    p{ /*Selecciona todos los párrafos <p> y les pone estilo */
+      font-size: 25px;/*Tamaño de fuente 25 píxeles.*/
+      text-align: justify;/*Justifica el texto horizontalmente.*/
+    } 
+
+    h2{ /*Selecciona todos los títulos <h2> */
+       color: #006400;/*Define el color del texto como verde oscuro(#006400) llamado DarkGreen.*/
+       font-size: 30px;/*Tamaño de fuente 30 píxeles.*/
+      }
+
+      h3{ /*Selecciona todos los títulos <h3>*/
+       color: #006400;/*Define el color del texto como verde oscuro(#006400)llamado DarkGreen.*/
+       font-size: 35px;/*Tamaño de fuente 35 píxeles.*/
+       text-align: center;/*Centra el texto*/
+      }
+      
+
+      img { /*Selecciona todas las imágenes.*/
+      display: block;/* Permite aplicar márgenes y centrar la imagen.*/
+      margin-left: auto;/*Margen izquierdo automático para centrar.*/
+      margin-right: auto;/*Margen derecho automático para centrar.*/
+      width: 400px;/* Establece un ancho fijo de 400px a la imagen*/
+          }
+
+    ol{ /*Selecciona todas las listas ordenadas.*/
+        font-size: 23px;/*Tamaño de fuente 23 píxeles.*/
+      text-align: justify;/*Justifica el texto horizontalmente.*/
+    }
+     
+  header { /*Definie estilos para el elemento <header> (cabecera o introducción de una página web)*/
+	background: #98fb98;/*Establece el color de fondo del <header> (#98fb98, color verde claro llamado PaleGreen).*/
+	text-align: center;/* Centra el texto horizontalmente dentro del elemento.*/
+	padding: 20px;/*Esta línea aplica un espaciado interno de 20px en todos los lados del <header> .*/
+         }
+
+  header h1{/*Aplica estilos a todos los elementos <h1> que estén dentro de un <header>.*/
+       color:#000000;/*Define el color del texto como negro (#000000).*/
+	   letter-spacing:10px;/*Añade 10 píxeles de espacio entre cada letra del texto.*/
+       word-spacing:10px;/*Añade 10 píxeles de espacio entre cada palabra del texto.*/
+       font-family:times new roman;/*Establece la fuente tipográfica como Times New Roman.*/
+       font-size:30px;/*Define el tamaño de la fuente como 30 píxeles.*/
+       text-align:center;/*Centra el texto horizontalmente en su contenedor (el <header>).*/
+       font-style:italic;/*Aplica cursiva al texto.*/
+       font-weight:bold;/*Aplica negrita al texto.*/
+            }
+
+            strong { /*Selecciona todos los elementos <strong> (texto en negrita semántico).*/
+              color: #556b2f;/*Define el color del texto como verde oliva oscuro (#556b2f) llamado DarkOliveGreen*/
+            }
+        
+             h4 strong{/*Aplica estilos a todos los elementos <h4> que estén dentro de un <strong>.*/
+                 color: #800000;/*Define el color del texto como rojo oscuro (#80000) llamado Maroon*/
+                 font-size: 25px;/*Tamaño de fuente 25 píxeles.*/
+                 text-align:justify;/*Justifica el texto horizontalmente.*/
+            }
+             
+    /*INICIO DE CAJAS*/
+
+    .contenedor1{/*Aplica  estilo a cualquier elemento HTML que tenga la clase llamada contenedor1.*/
+    display: flex;/*Cambia el comportamiento del contenedor para que sus elementos hijos se distribuyan usando Flexbox,
+    ayuda a organizar elementos en filas o columnas de forma más flexible*/
+    justify-content: space-around;/*Distribuye el espacio vacío se reparte antes, entre y después de cada elemento
+    haciendo que estén separados de forma uniforme.*/
+    margin: 40px;/*Añade un espacio de 40 píxeles alrededor del contenedor, separándolo de otros elementos fuera de él.*/
+    gap: 20px;/*Agrega un espacio de 20 píxeles entre cada uno de los elementos hijos dentro del contenedor.*/
+                }
+
+   .caja1{  /*Aplica estilo  a cualquier elemento HTML que tenga la clase "caja1".*/
+    background:#f0fff0;/*Establece el color de fondo de la caja: Fondo verde pastel (#f0fff0) llamado Honeydew*/
+    padding: 20px;/*Espacio interno entre contenido y borde de 20px.*/
+    border-radius: 80px;/*El valor 80px indica cuánto se curvan las esquinas; mientras más alto, más redondeado se ve.*/
+    width: 50%;/*Define el ancho de la caja en este caso el 50%*/
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.2);/*Sombra con desplazamiento de 2px, difuminado de 40px y 20% de opacidad.*/
+          }
+
+   .caja2{/*Aplica estilo  a cualquier elemento HTML que tenga la clase "caja2".*/
+    background:#f0fff0;/*Establece el color de fondo de la caja: Fondo verde pastel (#f0fff0) llamado Honeydew*/
+    padding: 20px;/*Aplica espacio interno de 20 píxeles entre el contenido de la caja y los bordes.*/
+    border-radius: 80px;/*El valor 80px indica cuánto se curvan las esquinas; mientras más alto, más redondeado se ve.*/
+    width: 50%;/*Define el ancho de la caja en este caso el 50%*/
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.2);/*Sombra con desplazamiento de 2px, difuminado de 40px y 20% de opacidad.*/
+           }
+
+
+    .contenedor2{/*Aplica estos estilos a cualquier elemento HTML que tenga la clase llamada contenedor2.*/
+    display: flex;/*Cambia el comportamiento del contenedor para que sus elementos hijos se distribuyan usando Flexbox
+    ayuda a organizar elementos en filas o columnas de forma más flexible*/
+    justify-content: space-around;/*Distribuye el espacio vacío se reparte antes, entre y después de cada elemento
+    haciendo que estén separados de forma uniforme*/
+    margin: 30px;/*Añade un espacio de 30 píxeles alrededor del contenedor, separándolo de otros elementos fuera de él.*/
+    gap: 20px;/*Agrega un espacio de 20 píxeles entre cada uno de los elementos hijos dentro del contenedor.*/
+                }
+
+    .caja3{/*Aplica estilo  a cualquier elemento HTML que tenga la clase "caja3".*/
+    background:#f5f5dc;/*Establece el color de fondo de la caja: Fondo amarillo pastel (#f5f5dc) llamado Beige*/
+    padding: 20px;/*Aplica espacio interno de 20 píxeles entre el contenido de la caja y los bordes.*/
+    border-radius: 80px;/*El valor 80px indica cuánto se curvan las esquinas; mientras más alto, más redondeado se ve.*/
+    width: 40%;/*Define el ancho de la caja en este caso el 40%*/
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.2);/*Sombra con desplazamiento de 2px, difuminado de 40px y 20% de opacidad.*/
+           }
+    
+    .caja4{/*Aplica estilo  a cualquier elemento HTML que tenga la clase "caja4".*/
+    background:#f0fff0;/*Establece el color de fondo de la caja: Fondo verde pastel (#f0fff0) llamado Honeydew*/
+    padding: 20px;/*Aplica espacio interno de 20 píxeles entre el contenido de la caja y los bordes.*/
+    border-radius: 80px;/*El valor 80px indica cuánto se curvan las esquinas; mientras más alto, más redondeado se ve.*/
+    width: 60%;/*Define el ancho de la caja en este caso el 60%*/
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.2);/*Sombra con desplazamiento de 2px, difuminado de 40px y 20% de opacidad.*/
+           }
+    
+    .contenedor3{/*Aplica  estilo a cualquier elemento HTML que tenga la clase llamada contenedor3.*/
+    display: flex;/*Cambia el comportamiento del contenedor para que sus elementos hijos se distribuyan usando Flexbox
+    ayuda a organizar elementos en filas o columnas de forma más flexible*/
+    justify-content: space-around;/*Distribuye el espacio vacío se reparte antes, entre y después de cada elemento
+    haciendo que estén separados de forma uniforme.*/
+    margin: 40px;/*Añade un espacio de 40 píxeles alrededor del contenedor, separándolo de otros elementos fuera de él.*/
+    gap: 20px;/*Agrega un espacio de 20 píxeles entre cada uno de los elementos hijos dentro del contenedor.*/
+                }
+
+    .caja5{/*Aplica estilo  a cualquier elemento HTML que tenga la clase "caja3".*/
+    background:#f0fff0;/*Establece el color de fondo de la caja: Fondo verde pastel (#f0fff0) llamado Honeydew*/
+    padding: 20px;/*Aplica espacio interno de 20 píxeles entre el contenido de la caja y los bordes.*/
+    border-radius: 80px;/*El valor 80px indica cuánto se curvan las esquinas; mientras más alto, más redondeado se ve.*/
+    width: 90%;/*Define el ancho de la caja en este caso el 90%*/
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.2);/*Sombra con desplazamiento de 2px, difuminado de 40px y 20% de opacidad.*/
+           }
